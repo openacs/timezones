@@ -21,6 +21,10 @@
         <requires url="acs-reference" version="0.1d"/>
 
         <files>
+            <file type="data_model" db_type="oracle" path="sql/common/timezone-rules.sql"/>
+            <file type="data_model" db_type="oracle" path="sql/oracle/timezone-data.sql"/>
+            <file type="data_model" db_type="oracle" path="sql/oracle/timezone-drop.sql"/>
+            <file type="data_model_create" db_type="oracle" path="sql/oracle/timezones-create.sql"/>
             <file type="package_spec" path="timezones.info"/>
         </files>
         <parameters>

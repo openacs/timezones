@@ -1,3 +1,0 @@
-#!/bin/sh
-cvs -z3 -d:pserver:jong@openacs.org:/cvsroot add *
-
